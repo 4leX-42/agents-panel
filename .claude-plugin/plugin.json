@@ -1,0 +1,30 @@
+{
+  "name": "agents-panel",
+  "version": "0.1.0",
+  "description": "A pane of every subagent in the session: model, effort, context, tokens, estimated cost and time, with a crab per agent role on desktop. Works with any agent type or workflow.",
+  "author": {
+    "name": "Adam Sedwick"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "autoOpen": {
+      "type": "boolean",
+      "title": "Open the pane when subagents start",
+      "description": "Opens the pane when a subagent starts while none were running (only where the terminal is wide enough to dock it).",
+      "default": true
+    },
+    "designWords": {
+      "type": "string",
+      "title": "Extra designer words",
+      "description": "Comma-separated words that dress an agent as the designer crab when its type or task contains them (added to design, figma, ui, ux, layout, css, ...).",
+      "default": ""
+    },
+    "engineerWords": {
+      "type": "string",
+      "title": "Extra engineer words",
+      "description": "Comma-separated words that dress an agent as the engineer crab when its type or task contains them (added to implement, build, fix, test, refactor, code, ...).",
+      "default": ""
+    }
+  }
+}

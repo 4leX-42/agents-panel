@@ -1,0 +1,11 @@
+{
+  "name": "agents-panel",
+  "owner": { "name": "Adam Sedwick" },
+  "plugins": [
+    {
+      "name": "agents-panel",
+      "source": "./",
+      "description": "A pane of every subagent in the session: model, effort, context, tokens, estimated cost and time, with a crab per agent role on desktop."
+    }
+  ]
+}
