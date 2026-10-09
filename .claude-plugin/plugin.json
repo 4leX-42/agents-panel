@@ -26,5 +26,7 @@
       "description": "Comma-separated words that dress an agent as the engineer crab when its type or task contains them (added to implement, build, fix, test, refactor, code, ...).",
       "default": ""
     }
-  }
+  },
+  "homepage": "https://github.com/Blind3y3Design/agents-panel",
+  "repository": "https://github.com/Blind3y3Design/agents-panel"
 }

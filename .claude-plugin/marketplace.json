@@ -1,11 +1,14 @@
 {
   "name": "agents-panel",
-  "owner": { "name": "Adam Sedwick" },
+  "owner": {
+    "name": "Adam Sedwick"
+  },
   "plugins": [
     {
       "name": "agents-panel",
       "source": "./",
       "description": "A pane of every subagent in the session: model, effort, context, tokens, estimated cost and time, with a crab per agent role on desktop."
     }
-  ]
+  ],
+  "description": "The agents-panel Claude Code mod: a live pane of every subagent with model, effort, context, tokens, cost and time."
 }

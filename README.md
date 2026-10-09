@@ -30,17 +30,23 @@ Sprites and pane layout adapted from savvy-progress (its crab is Pixel Clawd fro
 
 ## Install
 
-Locally, from this folder:
+From any Claude Code terminal session:
+
+```
+/plugin install agents-panel --marketplace Blind3y3Design/agents-panel
+```
+
+Answer `y` to add the marketplace, then pick a scope (user makes it available in every session). Or from a shell:
 
 ```bash
-claude plugin marketplace add ~/Documents/GitHub/agents-panel
+claude plugin marketplace add Blind3y3Design/agents-panel
 claude plugin install agents-panel@agents-panel --scope user
 ```
 
-Once this repo is on GitHub, from any Claude Code terminal session:
+## Developing
 
-```
-/plugin install agents-panel --marketplace <owner>/agents-panel
-```
+`claude plugin validate .` checks the manifest and hooks; `claude plugin test .` runs the tests. To run a working copy, `claude --plugin-dir .`.
 
-Under development: `claude plugin validate .` and `claude plugin test .`
+## License
+
+MIT. The pane layout and crab sprites are adapted from [savvy-progress](https://github.com/JohnnyVizz/claude-kit/tree/main/plugins/savvy-progress) by johnnyvizz (MIT); see `LICENSE`.
